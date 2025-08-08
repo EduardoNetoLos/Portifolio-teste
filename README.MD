@@ -1,7 +1,7 @@
 # 👨‍🎓 Portfólio Eduardo Neto Los. 👨‍🎓
 📚 Estudante de programação focado em Desenvolvimento Web. 📚
 
-## 👀 Sobre o que é?: 👀
+## 👀 Sobre o que é? 👀
 
 ✅ Informações sobre quem sou eu.
 
@@ -11,7 +11,7 @@
 
 ✅ Informações sobre como me contatar.
 
-## ⛏️ Ferramentas mais Utilizadas: 🔨
+## ⛏️ Ferramentas mais Utilizadas 🔨
 
 ▸ HTML.
 

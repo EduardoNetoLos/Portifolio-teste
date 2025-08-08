@@ -1,0 +1,300 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: auto;
+    width: auto;
+    background: linear-gradient(180deg, #21A37F 0%, #012E43 99%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fotoTopo {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px auto 10px auto;
+    display: block;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+header {
+    background-color: #012E43;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.60);
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
+    margin-bottom: 10px;
+}
+
+header > p1{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
+    font-size: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 100px;
+}
+
+header > ul > li{
+    display: inline;
+}
+
+header > ul > li > a {
+    border-radius: 1000px;
+    background-color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.329);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+header > ul > li > a:hover {
+    background-color: #01595A;
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+/*Cabeça do meu site já tá pronto*/
+
+/*Sobre mim*/
+.inicio {
+    text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.329);
+    background-color: #01595A;
+    color: white;
+    flex: 1;
+    padding: 24px 32px;
+    margin: 40px auto;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;   
+    width: 90%;          
+}
+
+.texto > h1{
+    font-size: 40px;
+}
+
+.texto {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 1px;
+}
+
+.linha{
+    text-align: center
+}
+/*Fim do Sobre mim*/
+
+/*Projetos*/
+.tituloProjetos {
+    text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.329);
+    font-size: 40px;
+    background-color: #01595A;
+    color: white;
+    flex: 1;
+    padding: 24px 32px;
+    margin: 40px auto;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;   
+    width: 90%;          
+}
+/*Guia do Aluno*/
+.fotoGuia{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px auto 10px auto;
+    display: left;
+
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.projetosGuia{
+    text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.329);
+    font-size: 40px;
+    background-color: #01595A;
+    color: white;
+    flex: 1;
+    padding: 24px 32px;
+    margin: 40px auto;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;   
+    width: 90%; 
+}
+/*Simula IF*/
+
+.fotoSimulaIF{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px auto 10px auto;
+    display: left;
+
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.projetosSimulaIF{
+    text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.329);
+    font-size: 40px;
+    background-color: #01595A;
+    color: white;
+    flex: 1;
+    padding: 24px 32px;
+    margin: 40px auto;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;   
+    width: 90%; 
+}
+/*Fim dos projetos*/
+/*Contatos*/
+.tituloContato {
+    text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.329);
+    font-size: 40px;
+    background-color: #01595A;
+    color: white;
+    flex: 1;
+    padding: 24px 32px;
+    margin: 40px auto;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;   
+    width: 90%;          
+}
+
+.contato{
+    text-shadow: 2px 2px 5px rgba(3, 3, 3, 0.329);
+    font-size: 40px;
+    background-color: #01595A;
+    color: white;
+    flex: 1;
+    padding: 24px 32px;
+    margin: 40px auto;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;   
+    width: 90%; 
+}
+
+.contato a {
+    text-decoration: none;
+    color: white; 
+}
+
+.contato ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contato-item {
+    display: inline-block;
+    background-color: #fff;
+    color: #000; /* texto preto */
+    border-radius: 1000px;
+    padding: 10px 28px;
+    margin: 10px 10px 0 0;
+    font-size: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.contato-item a {
+    color: #000; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contato-item:hover {
+    background-color: #01595A;
+    box-shadow: 0 2px 16px rgba(255,255,255,0.8);
+}
+
+.contato-item:hover a {
+    color: #fff; /* texto branco no hover */
+}
+/*Fim dos contatos*/
+/*Fundo site não mexer*/
+footer {
+    background-color: #012E43;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    .inicio {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        gap: 20px;
+        padding: 15px;
+        text-align: center;
+    }
+    .inicio img {
+        width: 150px;
+        height: auto;
+    }
+    .texto {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    header {
+        padding: 10px;
+    }
+    header > ul > li > a {
+        font-size: 16px;
+        padding: 6px;
+        margin: 5px;
+    }
+}
+
+/*Só pra botar uma sombra nas caixa*/
+.inicio,
+.tituloProjetos,
+.projetosGuia,
+.projetosSimulaIF,
+.tituloContato,
+.contato {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.38);
+}
